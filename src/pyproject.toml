@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cidr_locojuhi"
+version = "0.0.1"
+authors = [
+  { name="Danny Torres", email="danny.torresxd@gmail.com" },
+]
+description = "A package to help you with CIDR calculation nightmare"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache 2.0",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/locojuhi/cidr_locojuhi"
+Issues = "https://github.com/locojuhi/cidr_locojuhi/issues"
